@@ -11,9 +11,9 @@ public class DrawerAnimation {
     private  float END_SCALE = 0.7f;
     private DrawerLayout drawerLayout;
     private View rootView;
-    private RelativeLayout content_main;
+    private View content_main;
 
-    public DrawerAnimation(DrawerLayout drawerLayout, View rootView,RelativeLayout content_main) {
+    public DrawerAnimation(DrawerLayout drawerLayout, View rootView,View content_main) {
         this.drawerLayout = drawerLayout;
         this.rootView = rootView;
         this.content_main = content_main;

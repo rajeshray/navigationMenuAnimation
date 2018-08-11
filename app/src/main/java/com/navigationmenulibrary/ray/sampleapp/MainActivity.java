@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity
 
 
     private View rootView;
-    private RelativeLayout content_main;
+    private View content_main;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
