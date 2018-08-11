@@ -21,7 +21,7 @@ Add this to your module's ```build.gradle``` file (make sure the version matches
 ```
 dependencies {
 	...
-	implementation 'com.github.rajeshray:navigationMenuAnimation:1.0.0'
+	implementation 'com.github.rajeshray:navigationMenuAnimation:1.0.1'
 }
 ```
 
@@ -40,8 +40,11 @@ dependencies {
 **Pass** ```END_SCALE``` **value to adjust the main activity view.**
 
 ```
- DrawerAnimation drawerAnimation = new DrawerAnimation(drawerLayout,app_bar_main_layout_view,content_main_view,0.4f);
+ DrawerAnimation drawerAnimation = new DrawerAnimation(drawerLayout,app_bar_main_layout_view,content_main_layout_view,0.4f);
 ```
+
+**For better understanding check out the sample app inside this repository.**
+
 
 
 ![Alt text](https://thumbs.gfycat.com/DependableScrawnyGoitered-size_restricted.gif)
